@@ -1,6 +1,6 @@
 
 body {
-    overflow: hidden;
+    /*overflow: hidden;*/
     color: #550055;
     background-color: #505962;
 }
@@ -45,7 +45,7 @@ body {
     color: #1ebba3;
 
 }
-.navbar{
+.navbar.solid{
     background: rgba(0,0,0,0.7)!important;
     transition: background-color 1s ease 0s;
 }
