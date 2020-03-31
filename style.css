@@ -2,7 +2,7 @@
 body {
     /*overflow: hidden;*/
     color: #550055;
-    background-color: #505962;
+    /*background-color: #505962;*/
 }
 
 /*  nav scroll offet */
@@ -29,26 +29,52 @@ body {
     transition: background-color .5s ease 0s;
 
 }
-.navbar img{
+
+.navbar img {
     height: 2rem;
 
 }
-.navbar-nav li{
+
+.navbar-nav li {
     padding-right: 1rem;
 }
-.navbar-nav .nav-link{
-    color: white;padding-right: .7rem;
+
+.navbar-nav .nav-link {
+    color: white;
+    padding-right: .7rem;
 }
+
 .navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover
-{
+.navbar-nav .nav-link:hover {
     color: #1ebba3;
 
 }
-.navbar.solid{
-    background: rgba(0,0,0,0.7)!important;
+
+.navbar.solid {
+    background: rgba(0, 0, 0, 0.7) !important;
     transition: background-color 1s ease 0s;
 }
+
+/*landing page*/
+.home-inner {
+    background-image: url("img/computers.png");
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    /*background-color: #533f03;*/
+}
+.caption h1{
+    font-size: 4.4rem;
+    text-shadow: .8rem .5rem .8rem black;
+}
+
+/**/
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
