@@ -13,3 +13,13 @@ $(document).ready(function () {
         }
     })
 });
+/* close navigation bar transparent */
+$(document).ready(function () {
+    $(document).click(function (e) {
+        var ele = $(e.target);
+        var _opened = $(".navbar-collapse").hasClass("show");
+        if (_opened === true && !ele.hasClass('.nabar-toggler')) {
+            $('.navbar-toggler').click();
+        }
+    })
+});
