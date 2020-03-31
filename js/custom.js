@@ -26,7 +26,7 @@ $(document).ready(function () {
 /* scroll smooth navigation  */
 $(document).ready(function () {
     $('a').on('click',function (e) {
-        console.log(this.hash)
+        console.log(this.hash);
         if(this.hash!==""){
             e.preventDefault();
             var hash=this.hash;
@@ -36,5 +36,11 @@ $(document).ready(function () {
                 window.location.hash=hash;
             })
         }
+    })
+});
+//Arroww
+$(document).ready(function () {
+    $(window).scroll(function () {
+        $(".arrow").css("opacity",1-$(window).scrollTop()/150)
     })
 });
